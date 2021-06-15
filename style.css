@@ -63,15 +63,21 @@ a:hover {
 }
         
 p {
-        margin: 0;
+        margin: 1em 0;
 }
         
 section {
-        width: 700px;
+        width: 640px;
         margin: 0 auto;
 }
+
+.section {
+        margin: 1em 0;
+        font-size: 1.5rem;
+        color: #0983ff;
+}
         
-@media print, screen and (max-width: 700px) {
+@media print, screen and (max-width: 640px) {
         body {
             word-wrap: break-word;
         }
