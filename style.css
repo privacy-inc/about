@@ -11,15 +11,15 @@ html {
         
 @media (prefers-color-scheme: light) {
         body {
-            background-color: #ebebeb;
-            color: #000000;
+            background-color: #fbfbfb;
+            color: #000;
         }
 }
         
 @media (prefers-color-scheme: dark) {
         body {
             background-color: #313131;
-            color: #ffffff;
+            color: #fff;
         }
 }
 
@@ -34,17 +34,23 @@ body {
 
 h1, h2, h3 {
         color: #0983ff;
-        font-weight: 700;
         line-height: 1;
         margin: 0;
 }
 
 h1 {
         font-size: 3rem;
+        font-weight: 700;
 }
 
 h2 {
         font-size: 2rem;
+        font-weight: 600;
+}
+
+h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
 }
 
 a {
@@ -61,11 +67,11 @@ p {
 }
         
 section {
-        width: 960px;
+        width: 700px;
         margin: 0 auto;
 }
         
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 700px) {
         body {
             word-wrap: break-word;
         }
