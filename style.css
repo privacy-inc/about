@@ -11,15 +11,15 @@ html {
         
 @media (prefers-color-scheme: light) {
         body {
-            background-color: #fbfbfb;
-            color: #000;
+                background-color: #fbfbfb;
+                color: #000;
         }
 }
         
 @media (prefers-color-scheme: dark) {
         body {
-            background-color: #313131;
-            color: #fff;
+                background-color: #313131;
+                color: #fff;
         }
 }
 
@@ -75,6 +75,11 @@ section {
         margin: 1em 0;
         font-size: 1.5rem;
         color: #0983ff;
+}
+
+.disclaimer {
+        padding: 2em 0;
+        color: #777;
 }
         
 @media print, screen and (max-width: 640px) {
