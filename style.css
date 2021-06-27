@@ -81,6 +81,11 @@ section {
         padding: 2em 0;
         color: #777;
 }
+
+.footer {
+        padding: 2em 0;
+        text-align: center;
+}
         
 @media print, screen and (max-width: 640px) {
         body {
