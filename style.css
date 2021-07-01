@@ -53,6 +53,11 @@ h3 {
         font-weight: 500;
 }
 
+h4 {
+        font-size: 1.1rem;
+        font-weight: 400;
+}
+
 a {
         color: #0983ff;
         text-decoration: none;
@@ -78,7 +83,6 @@ section {
 }
 
 .disclaimer {
-        padding: 2em 0;
         color: #777;
 }
 
