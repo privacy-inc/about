@@ -71,7 +71,7 @@ p {
         margin: 1em 0;
 }
         
-section {
+.content {
         width: 640px;
         margin: 0 auto;
 }
@@ -96,7 +96,7 @@ section {
             word-wrap: break-word;
         }
         
-        section {
+        .content {
             width: auto;
             margin: 0;
         }
