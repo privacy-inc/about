@@ -8,24 +8,12 @@ html {
         -webkit-text-size-adjust: 100%;
         -webkit-tap-highlight-color:transparent;
 }
-        
-@media (prefers-color-scheme: light) {
-        body {
-                background-color: #fff;
-                color: #000;
-        }
-}
-        
-@media (prefers-color-scheme: dark) {
-        body {
-                background-color: #212121;
-                color: #fff;
-        }
-}
 
 body {
+        background-color: #fff;
+        color: #000;
         margin: 0;
-        padding: 20px;
+        padding: 0;
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.4;
@@ -33,7 +21,7 @@ body {
 }
 
 h1, h2, h3 {
-        color: #0983ff;
+        color: #FF63A3;
         line-height: 1;
         margin: 0;
 }
@@ -53,18 +41,13 @@ h3 {
         font-weight: 500;
 }
 
-h4 {
-        font-size: 1.1rem;
-        font-weight: 400;
-}
-
 a {
-        color: #0983ff;
+        color: #00C0FF;
         text-decoration: none;
 }
 
 a:hover {
-        color: #0983ff;
+        color: #00C0FF;
 }
         
 p {
@@ -74,21 +57,64 @@ p {
 .content {
         width: 640px;
         margin: 0 auto;
+        padding: 20px;
 }
 
-.section {
-        margin: 1em 0;
+#features .item {
+        padding: 4em 0 1em 0;
 }
 
-.disclaimer {
-        color: #777;
+#features .header {
+        padding: 0.5em 0;
 }
 
-.footer {
-        padding: 2em 0;
+#features img {
+        vertical-align: middle;
+        margin-right: 0.6em;
+}
+
+#features h3, #pricing h3, #downloads h3 {
+        padding: 1.5em 0 0 0;
+}
+
+#logo {
+        text-align: center;
+        margin-top: 3em;
+        margin-bottom: 9em;
+}
+
+#features {
+        padding: 5em 0;
+        background-color: #f3f6ff;
+        border-width: 1px 0 1px 0;
+        border-color: #c2d1fd;
+        border-style: solid;
+}
+
+#pricing {
+        padding: 5em 0;
+}
+
+#downloads {
+        padding: 5em 0;
+        background-color: #fef5f9;
+        border-width: 1px 0 1px 0;
+        border-color: #fdc2ed;
+        border-style: solid;
+}
+
+#presskit {
+        padding: 5em 0;
+}
+
+#footer {
+        font-size: 0.8em;
+        color: #fff;
+        background-color: #343a40;
+        padding: 5em 0;
         text-align: center;
 }
-        
+ 
 @media print, screen and (max-width: 640px) {
         body {
             word-wrap: break-word;
